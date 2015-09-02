@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		899581871B96A7A7004C122A /* EasyCoding.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 899581861B96A7A7004C122A /* EasyCoding.h */; };
+		899581891B96A7A7004C122A /* EasyCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 899581881B96A7A7004C122A /* EasyCoding.m */; };
+		8995818F1B96A7A7004C122A /* libEasyCoding.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 899581831B96A7A7004C122A /* libEasyCoding.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		899581901B96A7A7004C122A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8995817B1B96A7A7004C122A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 899581821B96A7A7004C122A;
+			remoteInfo = EasyCoding;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		899581811B96A7A7004C122A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				899581871B96A7A7004C122A /* EasyCoding.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		899581831B96A7A7004C122A /* libEasyCoding.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEasyCoding.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		899581861B96A7A7004C122A /* EasyCoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyCoding.h; sourceTree = "<group>"; };
+		899581881B96A7A7004C122A /* EasyCoding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyCoding.m; sourceTree = "<group>"; };
+		8995818E1B96A7A7004C122A /* EasyCodingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyCodingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		899581941B96A7A7004C122A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		899581801B96A7A7004C122A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8995818B1B96A7A7004C122A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8995818F1B96A7A7004C122A /* libEasyCoding.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8995817A1B96A7A7004C122A = {
+			isa = PBXGroup;
+			children = (
+				899581851B96A7A7004C122A /* EasyCoding */,
+				899581921B96A7A7004C122A /* EasyCodingTests */,
+				899581841B96A7A7004C122A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		899581841B96A7A7004C122A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				899581831B96A7A7004C122A /* libEasyCoding.a */,
+				8995818E1B96A7A7004C122A /* EasyCodingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		899581851B96A7A7004C122A /* EasyCoding */ = {
+			isa = PBXGroup;
+			children = (
+				899581861B96A7A7004C122A /* EasyCoding.h */,
+				899581881B96A7A7004C122A /* EasyCoding.m */,
+			);
+			path = EasyCoding;
+			sourceTree = "<group>";
+		};
+		899581921B96A7A7004C122A /* EasyCodingTests */ = {
+			isa = PBXGroup;
+			children = (
+				899581931B96A7A7004C122A /* Supporting Files */,
+			);
+			path = EasyCodingTests;
+			sourceTree = "<group>";
+		};
+		899581931B96A7A7004C122A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				899581941B96A7A7004C122A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		899581821B96A7A7004C122A /* EasyCoding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 899581971B96A7A7004C122A /* Build configuration list for PBXNativeTarget "EasyCoding" */;
+			buildPhases = (
+				8995817F1B96A7A7004C122A /* Sources */,
+				899581801B96A7A7004C122A /* Frameworks */,
+				899581811B96A7A7004C122A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyCoding;
+			productName = EasyCoding;
+			productReference = 899581831B96A7A7004C122A /* libEasyCoding.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8995818D1B96A7A7004C122A /* EasyCodingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8995819A1B96A7A7004C122A /* Build configuration list for PBXNativeTarget "EasyCodingTests" */;
+			buildPhases = (
+				8995818A1B96A7A7004C122A /* Sources */,
+				8995818B1B96A7A7004C122A /* Frameworks */,
+				8995818C1B96A7A7004C122A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				899581911B96A7A7004C122A /* PBXTargetDependency */,
+			);
+			name = EasyCodingTests;
+			productName = EasyCodingTests;
+			productReference = 8995818E1B96A7A7004C122A /* EasyCodingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8995817B1B96A7A7004C122A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "BCOZ Online";
+				TargetAttributes = {
+					899581821B96A7A7004C122A = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					8995818D1B96A7A7004C122A = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 8995817E1B96A7A7004C122A /* Build configuration list for PBXProject "EasyCoding" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8995817A1B96A7A7004C122A;
+			productRefGroup = 899581841B96A7A7004C122A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				899581821B96A7A7004C122A /* EasyCoding */,
+				8995818D1B96A7A7004C122A /* EasyCodingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8995818C1B96A7A7004C122A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8995817F1B96A7A7004C122A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899581891B96A7A7004C122A /* EasyCoding.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8995818A1B96A7A7004C122A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		899581911B96A7A7004C122A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 899581821B96A7A7004C122A /* EasyCoding */;
+			targetProxy = 899581901B96A7A7004C122A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		899581951B96A7A7004C122A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		899581961B96A7A7004C122A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		899581981B96A7A7004C122A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		899581991B96A7A7004C122A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8995819B1B96A7A7004C122A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EasyCodingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8995819C1B96A7A7004C122A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EasyCodingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8995817E1B96A7A7004C122A /* Build configuration list for PBXProject "EasyCoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				899581951B96A7A7004C122A /* Debug */,
+				899581961B96A7A7004C122A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		899581971B96A7A7004C122A /* Build configuration list for PBXNativeTarget "EasyCoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				899581981B96A7A7004C122A /* Debug */,
+				899581991B96A7A7004C122A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8995819A1B96A7A7004C122A /* Build configuration list for PBXNativeTarget "EasyCodingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8995819B1B96A7A7004C122A /* Debug */,
+				8995819C1B96A7A7004C122A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8995817B1B96A7A7004C122A /* Project object */;
+}
