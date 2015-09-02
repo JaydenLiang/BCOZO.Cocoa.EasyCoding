@@ -10,6 +10,7 @@
 		899581871B96A7A7004C122A /* EasyCoding.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 899581861B96A7A7004C122A /* EasyCoding.h */; };
 		899581891B96A7A7004C122A /* EasyCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 899581881B96A7A7004C122A /* EasyCoding.m */; };
 		8995818F1B96A7A7004C122A /* libEasyCoding.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 899581831B96A7A7004C122A /* libEasyCoding.a */; };
+		8995819F1B96A910004C122A /* BCOUrlEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8995819D1B96A910004C122A /* BCOUrlEncode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,8 @@
 		899581881B96A7A7004C122A /* EasyCoding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyCoding.m; sourceTree = "<group>"; };
 		8995818E1B96A7A7004C122A /* EasyCodingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyCodingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		899581941B96A7A7004C122A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8995819D1B96A910004C122A /* BCOUrlEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCOUrlEncode.m; sourceTree = "<group>"; };
+		8995819E1B96A910004C122A /* BCOUrlEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCOUrlEncode.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 		899581851B96A7A7004C122A /* EasyCoding */ = {
 			isa = PBXGroup;
 			children = (
+				8995819D1B96A910004C122A /* BCOUrlEncode.m */,
+				8995819E1B96A910004C122A /* BCOUrlEncode.h */,
 				899581861B96A7A7004C122A /* EasyCoding.h */,
 				899581881B96A7A7004C122A /* EasyCoding.m */,
 			);
@@ -193,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8995819F1B96A910004C122A /* BCOUrlEncode.m in Sources */,
 				899581891B96A7A7004C122A /* EasyCoding.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,6 +302,8 @@
 		899581981B96A7A7004C122A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD)";
+				"ARCHS[sdk=iphonesimulator*]" = i386;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

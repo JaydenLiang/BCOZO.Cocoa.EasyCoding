@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BACB8632-5053-4750-9CAD-57512808676C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E71ACD02DD085A6F9AC37E7B416C553E7DF16852</key>
+		<string>https://github.com/JaydenLiang/BCOZO.Cocoa.EasyCoding.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>EasyCoding.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E71ACD02DD085A6F9AC37E7B416C553E7DF16852</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/JaydenLiang/BCOZO.Cocoa.EasyCoding.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E71ACD02DD085A6F9AC37E7B416C553E7DF16852</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E71ACD02DD085A6F9AC37E7B416C553E7DF16852</string>
+			<key>IDESourceControlWCCName</key>
+			<string>EasyCoding</string>
+		</dict>
+	</array>
+</dict>
+</plist>
